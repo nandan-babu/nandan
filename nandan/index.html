@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nandan Babu - Web Designer & Developer Portfolio">
+    <title>Nandan Babu - Portfolio</title>
+    <link rel="shortcut icon" href="portfolio/public/assets/img/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">Nandan Babu</div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#work" class="nav-link">Work</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="hero-title fade-in">I'm Nandan Babu and I design Stuff and Build It.</h1>
+                <p class="hero-subtitle fade-in-delay">Web Designer & Full Stack Developer</p>
+                <a href="#about" class="btn btn-primary fade-in-delay-2 smooth-scroll">
+                    Learn More <i class="fas fa-arrow-down"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p class="about-text">
+                    Motivated and ambitious Computer Applications student with hands-on experience in Python, web
+                    development, and full-stack technologies. Skilled in problem-solving, teamwork, and effective
+                    communication. Quick learner eager to contribute to innovative projects and grow in a dynamic work
+                    environment.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Services & Certifications</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Web Design</h3>
+                    <p>Creating the visual layout, user interface (UI), and user experience (UX) for websites, focusing on aesthetics, usability, and functionality across devices like desktops and mobile phones.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Building and maintaining websites/apps, combining front-end (what users see: design, layout with HTML/CSS/JS) and back-end (servers, databases, logic).</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Education</h3>
+                    <ul class="education-list">
+                        <li>Completed BCA in 2025</li>
+                        <li>Completed diploma in Python full stack development</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Certifications</h3>
+                    <ul class="cert-list">
+                        <li>University of Kerala BCA Certificate</li>
+                        <li>Python Full Stack Development Certificate from Zoople technologies</li>
+                        <li>Corzone solutions Certificate for web development intern</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="section">
+        <div class="container">
+            <h2 class="section-title">Latest Work</h2>
+            <div class="work-grid">
+                <!-- Project 1: BK Groups -->
+                <div class="work-item" data-project="bk-groups">
+                    <div class="work-image" style="background-image: url('portfolio/public/assets/img/work/item_1.jpg')"></div>
+                    <div class="work-overlay">
+                        <h3>BK Groups</h3>
+                        <p>Web Design, Web Development, Infrastructure</p>
+                        <button class="btn btn-outline view-project">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Project 2: AURA -->
+                <div class="work-item" data-project="aura">
+                    <div class="work-image" style="background-image: url('portfolio/public/assets/img/work/item_2.jpg')"></div>
+                    <div class="work-overlay">
+                        <h3>AURA</h3>
+                        <p>Web Design, Web Development</p>
+                        <button class="btn btn-outline view-project">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Project 3: VILA Agency -->
+                <div class="work-item" data-project="vila">
+                    <div class="work-image" style="background-image: url('portfolio/public/assets/img/work/item_3.jpg')"></div>
+                    <div class="work-overlay">
+                        <h3>VILA Agency</h3>
+                        <p>Web Design, Web Development</p>
+                        <button class="btn btn-outline view-project">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Project 4: Mediplus -->
+                <div class="work-item" data-project="mediplus">
+                    <div class="work-image" style="background-image: url('portfolio/public/assets/img/work/item_4.jpg')"></div>
+                    <div class="work-overlay">
+                        <h3>Mediplus</h3>
+                        <p>Web Design, Web Development</p>
+                        <button class="btn btn-outline view-project">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modals -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>Feel free to reach out if you'd like to work together or have any questions!</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/nandan-babu-832137243" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/nandan-babu" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                    <div class="cv-download">
+                        <a href="portfolio/public/assets/cv/resume.pdf" class="btn btn-primary" download>
+                            <i class="fas fa-download"></i> Download CV
+                        </a>
+                    </div>
+                </div>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        Send Message <i class="fas fa-paper-plane"></i>
+                    </button>
+                    <div id="form-message" class="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Nandan Babu. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
